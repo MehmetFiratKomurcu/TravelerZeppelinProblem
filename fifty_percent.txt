@@ -1,0 +1,9 @@
+Aydin Şehrinin Bilgileri: 
+Lat: 37.856 Long: 27.8416
+Agri Şehrinin Bilgileri: 
+Lat: 39.7194 Long: 43.0513
+
+
+Şehirler Arası Uzaklıklar:
+Aydin ile Agri Arasındaki Uzaklık: 
+0.0 Km.
