@@ -1,52 +1,32 @@
-# TravelerZeppelinProblem
-Shortest Path Algoritm on Java
+# Traveller Zeppelin Problem
 
- 160202028 Mehmet Fırat KÖMÜRCÜ
- 160202053 Ali Recep KARACA
+<p align="center">
+<img src="git_images/image2.png" width="400" height="275">
+<img src="git_images/image1.png" width="400" height="275">
+</p>
 
-Proje Başlığı: Gezgin Zeplin Problemi
 
+## Description
+This project; the start and end cities find the shortest cost route between the two cities, taken by the user, and calculates the angle for all the neighbors of the cities on these roads and calculates whether to go to the relevant city by comparing these angles with the number of passengers in the zeppelin. As a result of these accounts, we requested this project; The problem of obtaining maximum profit by taking a flat fee and the price of fifty percent profit from a passenger is solved. All these steps are requested from us in the project; It is solved according to the characteristics of the airship vehicle.
 
-Projeyi çalıştırmak için gerekli program:
+## Dependency
 
-Netbeans IDE
+This program uses Google Static Map API and their dependencies.
 
-Projeyi çalıştırmak için uygulanacak adımlar:
+## Usage
 
-1)İlk olarak; bu kodların çalıştırılabilmesi için bilgisayarınızda bir Java IDE'si bulunması gerekmektedir.
+Clone and run with NetBeans IDE, but first you need to get an api key from Google Static Map service and change with "urlString" variable (Line: 124) in /src/travelerzeppelinproblem/FiftyPercentProfitProblem.java file.
 
-2)Eğer bilgisayarınızda Java programlama dilini çalıştıracak bir IDE bulunmuyor ise NetBeans,Eclipse gibi yazılım
-geliştirme ortamlarını indirebilirsiniz.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-3)Eğer NetBeans yazılımını kullanacaksanız ilk olarak https://netbeans.org/downloads/sitesine giriniz.Bu site üzerinden
-kurulum dosyasını edininiz.Edindiğiniz bu kurulum dosyasını kullanarak NetBeans'i bilgisayarınıza kurunuz.
+Please make sure to update tests as appropriate.
 
-4)Eğer Eclipse yazılımını kullanacaksanız http://www.eclipse.org/downloads/ adresinden bu IDE'nin kurulum dosyasını 
-temin edebilir ve bu dosya ile IDE'yi bilgisayarınıza kurabilirsiniz.
+## Authors
+:bust_in_silhouette: [Mehmet Fırat KÖMÜRCÜ](https://github.com/MehmetFiratKomurcu)
 
-5)Bilgisayarınızda bir Java IDE'si bulunuyorsa, ilk olarak bulunan bu IDE'yi çalıştırın.(Bundan sonraki adımlar NetBeans
-IDE'si üzerinden anlatılacaktır.)
+:bust_in_silhouette: [Ali Recep KARACA](https://github.com/recepkaraca)
 
-6)İlk olarak NetBeans idesini çalıştırın.
+## Project Status
 
-7)Ardından, "File" sekmesi üzerinden "New Project" tuşuna tıklayın. 
-
-8)"Choose project" ekranında "Java Application" u işaretleyerek "Next" e basarak ilerleyiniz.
-
-9)Bu ekran üzerinden projeye isim vererek ilerleyiniz ve "Finish" tuşuna basarak bu ekranı bitiriniz.
-
-10)Oluşturduğunuz projenin içerisine "travelerzeppelinproblem" isminde bir paket oluşturunuz ve indirmiş olduğunuz kodları bu paket
-içerisindeki sınıfların içerisine kopyalayınız.
-
-11)Oluşturduğunuz paket içerisine; "ConstantPaymentProblem.java", "Dijkstra.java", "TravelerZeppelinProblem" ve "FiftyPercentProfitProblem.java" 
-dosyalarını oluşturunuz ve indirmiş olduğunuz kodları ilgili sınıflara kopyalayınız.
-
-12)Ardından "F6" tuşuna basınız ve programı çalıştırınız.
-
-Programın test edildiği işletim sistemleri:
-
--Bu program Windows 10 işletim sistemi üzerinde test edilmiş olup,herhangi bir problemle karşılaşılmamıştır.
-
-Programın yazıldığı ortam:
-
--Bu program; Windows 10 üzerinde, NetBeans IDE'si kullanılarak yazılmıştır.
+This is our school project.
